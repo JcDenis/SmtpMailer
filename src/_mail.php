@@ -31,7 +31,7 @@ if (!function_exists('\_mail')
 
         try {
             //Server settings
-            $mail->SMTPDebug = App::config()->debugMode() ? SMTP::DEBUG_SERVER : SMTP::DEBUG_OFF;
+            $mail->SMTPDebug = SMTP::DEBUG_OFF; //App::config()->debugMode() ? SMTP::DEBUG_SERVER : SMTP::DEBUG_OFF;
             $mail->isSMTP();
             $mail->Host       = SMTP_MAILER_HOST;
             $mail->SMTPAuth   = true;
