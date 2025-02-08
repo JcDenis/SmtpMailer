@@ -25,6 +25,6 @@ $this->registerModule(
         'support'     => 'https://git.dotclear.watch/JcDenis/' . $this->id . '/issues',
         'details'     => 'https://git.dotclear.watch/JcDenis/' . $this->id . '/src/branch/master/README.md',
         'repository'  => 'https://git.dotclear.watch/JcDenis/' . $this->id . '/raw/branch/master/dcstore.xml',
-        'date'        => '2025-01-25T09:53:38+00:00',
+        'date'        => '2025-02-08T20:13:34+00:00',
     ]
 );
