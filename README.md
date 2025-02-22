@@ -1,10 +1,10 @@
 # README
 
-[![Release](https://img.shields.io/github/v/release/jcdenis/SmtpMailer?color=lightblue)](https://git.dotclear.watch/JcDenis/SmtpMailer/releases)
+[![Release](https://img.shields.io/github/v/release/jcdenis/SmtpMailer?color=lightblue)](https://github.com/JcDenis/SmtpMailer/releases)
 ![Date](https://img.shields.io/github/release-date/jcdenis/SmtpMailer?color=red)
 [![Dotclear](https://img.shields.io/badge/dotclear-v2.33-137bbb.svg)](https://fr.dotclear.org/download)
 [![Dotaddict](https://img.shields.io/badge/dotaddict-official-9ac123.svg)](https://plugins.dotaddict.org/dc2/details/SmtpMailer)
-[![License](https://img.shields.io/github/license/jcdenis/SmtpMailer?color=white)](https://git.dotclear.watch/JcDenis/SmtpMailer/src/branch/master/LICENSE)
+[![License](https://img.shields.io/github/license/jcdenis/SmtpMailer?color=white)](https://github.com/JcDenis/SmtpMailer/src/branch/master/LICENSE)
 
 ## ABOUT
 
@@ -35,10 +35,10 @@ This lines must be added to Dotclear _config.php_ file:
 
 ## LINKS
 
-* [License](https://git.dotclear.watch/JcDenis/SmtpMailer/src/branch/master/LICENSE)
-* [Packages & details](https://git.dotclear.watch/JcDenis/SmtpMailer/releases) (or on [Dotaddict](https://plugins.dotaddict.org/dc2/details/SmtpMailer))
-* [Sources & contributions](https://git.dotclear.watch/JcDenis/SmtpMailer) (or on [GitHub](https://github.com/JcDenis/SmtpMailer))
-* [Issues & security](https://git.dotclear.watch/JcDenis/SmtpMailer/issues) (or on [GitHub](https://github.com/JcDenis/SmtpMailer/issues))
+* [License](https://github.com/JcDenis/SmtpMailer/src/branch/master/LICENSE)
+* [Packages & details](https://github.com/JcDenis/SmtpMailer/releases) (or on [Dotaddict](https://plugins.dotaddict.org/dc2/details/SmtpMailer))
+* [Sources & contributions](https://github.com/JcDenis/SmtpMailer)
+* [Issues & security](https://github.com/JcDenis/SmtpMailer/issues)
 
 ## CONTRIBUTORS
 
