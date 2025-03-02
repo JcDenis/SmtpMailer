@@ -23,8 +23,8 @@ $this->registerModule(
         'permissions' => 'My',
         'type'        => 'plugin',
         'support'     => 'https://github.com/JcDenis/' . $this->id . '/issues',
-        'details'     => 'https://github.com/JcDenis/' . $this->id . '/src/branch/master/README.md',
-        'repository'  => 'https://github.com/JcDenis/' . $this->id . '/raw/branch/master/dcstore.xml',
-        'date'        => '2025-02-10T22:47:16+00:00',
+        'details'     => 'https://github.com/JcDenis/' . $this->id . '/',
+        'repository'  => 'https://raw.githubusercontent.com/JcDenis/' . $this->id . '/master/dcstore.xml',
+        'date'        => '2025-02-24T23:31:12+00:00',
     ]
 );
