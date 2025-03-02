@@ -17,7 +17,7 @@ $this->registerModule(
     'SMTP Mailer',
     'SMTP Mailer',
     'Jean-Christian Paul Denis and Contributors',
-    '0.2',
+    '0.2.1',
     [
         'requires'    => [['core', '2.33']],
         'permissions' => 'My',
