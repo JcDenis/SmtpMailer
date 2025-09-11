@@ -74,7 +74,7 @@ if (!function_exists('\_mail')
             $cur = App::log()->openLogCursor();
             $cur->setField('log_table', 'SmtpMailer');
             $cur->setField('log_msg', 
-                "\n-----\n Failde to send mail\n-----\n" . $e->getMessage() . "\n\n" .
+                "\n-----\n Failed to send mail\n-----\n" . $e->getMessage() . "\n\n" .
                 sprintf(
                 "%s\n-----\n To: %s\n Subject: %s\n-----\n Message:\n%s\n",
                 is_array($headers) ? implode("\n\t", $headers) : (is_string($headers) ? $headers : ''),

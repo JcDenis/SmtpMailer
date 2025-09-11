@@ -6,7 +6,7 @@ namespace Dotclear\Plugin\SmtpMailer;
 
 use Autoloader;
 use Dotclear\App;
-use Dotclear\Core\Process;
+use Dotclear\Helper\Process\TraitProcess;
 
 /**
  * @brief       SmtpMailer module prepend.
@@ -15,8 +15,10 @@ use Dotclear\Core\Process;
  * @author      Jean-Christian Paul Denis
  * @copyright   AGPL-3.0
  */
-class Prepend extends Process
+class Prepend
 {
+    use TraitProcess;
+
     public static function init(): bool
     {
         return self::status(My::checkContext(My::PREPEND));
@@ -28,7 +30,7 @@ class Prepend extends Process
             return false;
         }
 
-        // Json Web Token library v6.11.0, see https://github.com/firebase/php-jwt
+        // PHPMailer library, see https://github.com/PHPMailer/PHPMailer
         Autoloader::me()->addNamespace('PHPMailer\PHPMailer', implode(DIRECTORY_SEPARATOR, [
             My::path(), 'lib', 'PHPMailer', 'src'
         ]));
