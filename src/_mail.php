@@ -19,7 +19,7 @@ if (!function_exists('\_mail')
     && defined('SMTP_MAILER_PASSWORD') 
     && defined('SMTP_MAILER_FROM')
 ) {
-    function _mail(string $to, string $subject, string $message, $headers = '', ?string $params = null): bool
+    function _mail(string $to, string $subject, string $message, mixed $headers = '', ?string $params = null): bool
     {
         if (!App::blog()->isDefined()) {
             return false;
@@ -37,8 +37,8 @@ if (!function_exists('\_mail')
             $mail->SMTPAuth   = true;
             $mail->Username   = SMTP_MAILER_USERNAME;
             $mail->Password   = SMTP_MAILER_PASSWORD;
-            $mail->SMTPSecure = defined('SMTP_MAILER_STARTTLS') && SMTP_MAILER_STARTTLS ? PHPMailer::ENCRYPTION_STARTTLS : PHPMailer::ENCRYPTION_SMTPS;
-            $mail->Port       = defined('SMTP_MAILER_STARTTLS') && SMTP_MAILER_STARTTLS ? 587 : 465;
+            $mail->SMTPSecure = SMTP_MAILER_STARTTLS ? PHPMailer::ENCRYPTION_STARTTLS : PHPMailer::ENCRYPTION_SMTPS;
+            $mail->Port       = SMTP_MAILER_STARTTLS ? 587 : 465;
 
             //Headers
             if (!empty($headers)) {
