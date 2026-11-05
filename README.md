@@ -2,8 +2,8 @@
 
 [![Release](https://img.shields.io/github/v/release/jcdenis/SmtpMailer?color=lightblue)](https://github.com/JcDenis/SmtpMailer/releases)
 ![Date](https://img.shields.io/github/release-date/jcdenis/SmtpMailer?color=red)
-[![Dotclear](https://img.shields.io/badge/dotclear-v2.39-137bbb.svg)](https://fr.dotclear.org/download)
-[![Dotaddict](https://img.shields.io/badge/dotaddict-official-9ac123.svg)](https://plugins.dotaddict.org/dc2/details/SmtpMailer)
+[![Dotclear](https://img.shields.io/badge/dotclear-v2.36-137bbb.svg)](https://fr.dotclear.org/download)
+[![Repository](https://img.shields.io/badge/repository-official-9ac123.svg)](https://dotclear.org/plugin/detail/SmtpMailer)
 [![License](https://img.shields.io/github/license/jcdenis/SmtpMailer?color=white)](https://github.com/JcDenis/SmtpMailer/blob/master/LICENSE)
 
 ## ABOUT
@@ -23,7 +23,7 @@ This plugin is not completed and only fits my needs, use it at your own risk.
 ## USAGE
 
 First install _SmtpMailer_, manualy from a zip package or from 
-Dotaddict repository. (See Dotclear's documentation to know how do this)
+Dotclear plugins repository. (See Dotclear's documentation to know how do this)
 
 This lines must be added to Dotclear _config.php_ file:
 
@@ -36,7 +36,7 @@ This lines must be added to Dotclear _config.php_ file:
 ## LINKS
 
 * [License](https://github.com/JcDenis/SmtpMailer/blob/master/LICENSE)
-* [Packages & details](https://github.com/JcDenis/SmtpMailer/releases) (or on [Dotaddict](https://plugins.dotaddict.org/dc2/details/SmtpMailer))
+* [Packages & details](https://github.com/JcDenis/SmtpMailer/releases) (or on [Repository](https://dotclear.org/plugin/detail/SmtpMailer))
 * [Sources & contributions](https://github.com/JcDenis/SmtpMailer)
 * [Issues & security](https://github.com/JcDenis/SmtpMailer/issues)
 
