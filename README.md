@@ -43,6 +43,7 @@ This lines must be added to Dotclear _config.php_ file:
 ## CONTRIBUTORS
 
 * Jean-Christian Denis (author)
+* Claude (AI assistant by Anthropic)
 
 You are welcome to contribute to this code.
 
