@@ -8,7 +8,7 @@
     <desc>SMTP Mailer</desc>
     <file>https://github.com/JcDenis/SmtpMailer/releases/download/v0.4/plugin-SmtpMailer.zip</file>
     <da:dcmin>2.39</da:dcmin>
-    <da:details>https://github.com/JcDenis/SmtpMailer/src/branch/master/README.md</da:details>
+    <da:details>https://github.com/JcDenis/SmtpMailer/blob/master/README.md</da:details>
     <da:support>https://github.com/JcDenis/SmtpMailer/issues</da:support>
   </module>
 </modules>
