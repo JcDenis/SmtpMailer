@@ -17,13 +17,19 @@ Required Dotclear and PHP versions: see `_define.php`.
 
 ## Structure
 
+* `src/Backend.php`: admin side: dashboard warning when configuration is missing.
 * `src/My.php`: module helpers (`My::id()`, settings, permissions).
 * `src/Prepend.php`: loaded on every request: autoload, URL handlers, permission types.
-* `src/_mail.php`
+* `src/_mail.php`: the `_mail()` function used by the core instead of PHP `mail()`; it loads PHPMailer itself so it can be required from config.php.
+* `lib/PHPMailer/`: PHPMailer library.
+* Behaviors used: `adminDashboardMessage`.
 
 ## Pitfalls
 
-* None recorded yet: add here the traps met while working on the module.
+* The core gives `_mail()` headers as one string (one header per line), not an array.
+* The core ignores the result of `_mail()` (branch `fix-mail-user-function-result` on dotclear-private): `_mail()` throws an exception on failure.
+* Plugins are not loaded on the admin login page: mails sent there need `_mail.php` required from config.php.
+* Never log the message content (it can hold a password recovery link).
 
 ## Testing
 

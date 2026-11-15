@@ -22,16 +22,37 @@ This plugin is not completed and only fits my needs, use it at your own risk.
 
 ## USAGE
 
-First install _SmtpMailer_, manualy from a zip package or from 
+First install _SmtpMailer_, manually from a zip package or from 
 Dotclear plugins repository. (See Dotclear's documentation to know how do this)
 
-This lines must be added to Dotclear _config.php_ file:
+These lines must be added to Dotclear _config.php_ file:
 
 	define('SMTP_MAILER_HOST', 'your.mail.hoster.net');
 	define('SMTP_MAILER_USERNAME', 'abcdef');
 	define('SMTP_MAILER_PASSWORD', 'abcdef');
 	define('SMTP_MAILER_FROM', 'xyz@xyz.xyz');
 	define('SMTP_MAILER_STARTTLS', true);
+
+Optional lines:
+
+	define('SMTP_MAILER_ENCRYPTION', 'starttls'); // 'starttls', 'smtps' or 'none', replaces SMTP_MAILER_STARTTLS
+	define('SMTP_MAILER_PORT', 587);              // default: 587 with starttls, 465 with smtps, 25 without encryption
+	define('SMTP_MAILER_AUTH', true);             // false to send without authentication
+	define('SMTP_MAILER_VERIFY_PEER', true);      // false to accept a self-signed server certificate
+
+A warning is shown on the dashboard to super admins when a required constant is missing.
+
+Mails are always sent from SMTP_MAILER_FROM address. When a mail gives another
+"From:" address, it is used as "Reply-To:" address.
+
+A failed mail throws an error, so the page that sent it can tell it,
+and it is recorded in Dotclear logs (without the message content).
+
+Plugins are not loaded on the administration login page. To also send by SMTP
+the mails sent from it (password recovery), add this line to _config.php_,
+after the lines above:
+
+	require_once __DIR__ . '/../plugins/SmtpMailer/src/_mail.php';
 
 ## LINKS
 
