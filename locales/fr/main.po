@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: SmtpMailer\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-11-15T14:00:00+00:00\n"
+"Last-Translator: Jean-Christian Denis\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Plugin \"SMTP Mailer\" is enabled but these constants are missing in config.php, mails are not sent by SMTP: %s"
+msgstr "Le plugin « SMTP Mailer » est activé mais ces constantes manquent dans config.php, les mails ne sont pas envoyés par SMTP : %s"
+
+msgid "Plugin \"SMTP Mailer\" is not used: another _mail() function is already defined."
+msgstr "Le plugin « SMTP Mailer » n'est pas utilisé : une autre fonction _mail() est déjà définie."
