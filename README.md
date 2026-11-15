@@ -12,6 +12,8 @@ _SmtpMailer_ is a plugin for the open-source web publishing software called [Dot
 
 > Simple SMTP mailer plugin.
 
+A [user guide in French](https://github.com/JcDenis/SmtpMailer/blob/master/docs/fr/utilisation.md) is available.
+
 This plugin is not completed and only fits my needs, use it at your own risk.
 
 ## REQUIREMENTS
@@ -35,6 +37,7 @@ This lines must be added to Dotclear _config.php_ file:
 
 ## LINKS
 
+* [User guide (in French)](https://github.com/JcDenis/SmtpMailer/blob/master/docs/fr/utilisation.md)
 * [License](https://github.com/JcDenis/SmtpMailer/blob/master/LICENSE)
 * [Packages & details](https://github.com/JcDenis/SmtpMailer/releases) (or on [Repository](https://dotclear.org/plugin/detail/SmtpMailer))
 * [Sources & contributions](https://github.com/JcDenis/SmtpMailer)
